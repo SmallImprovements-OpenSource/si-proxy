@@ -1,0 +1,6 @@
+#paths that shold be handled by the appengine 
+/login
+/forward
+/public-app
+/promptToRenew
+
