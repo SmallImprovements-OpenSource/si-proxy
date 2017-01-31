@@ -1,5 +1,4 @@
-FROM haproxy:1.7.1-alpine
+FROM haproxy:1.7.2-alpine
 
-RUN apk update \                                                                                                                                                                                                                        
-  && apk add ca-certificates wget \                                                                                                                                                                                                      
-  && update-ca-certificates    
+RUN apk add --no-cache\
+    ca-certificates 
